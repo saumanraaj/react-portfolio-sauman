@@ -3,6 +3,7 @@ import project2 from "../assets/projects/p2.jpeg";
 import project3 from "../assets/projects/p3.jpeg";
 import project4 from "../assets/projects/p4.jpeg";
 import project5 from "../assets/projects/project-1.jpg";
+import project6 from "../assets/projects/21.jpeg";
 export const HERO_CONTENT = `Hi, I'm Sauman Raaj, Robotics Engineer & AI Enthusiast
 Passionate about designing intelligent robotic systems, I specialize in Human-Robot Interaction, Machine Learning, and Control Systems. My focus is on building autonomous, real-time decision-making robots that bridge the gap between AI and the physical world.
 `;
@@ -59,6 +60,13 @@ export const PROJECTS = [
     description:
     "Competed in Daimler’s automotive innovation challenge and secured the runner-up position among 20+ teams. Led a team of four to develop a strategy for reducing the Total Cost of Ownership (TCO) of Daimler commercial trucks by 25%. Designed and simulated a four-wheel-drive concept to improve fuel efficiency while implementing a predictive maintenance system that reduced vehicle downtime by 30%. The proposed solution utilized real-time sensor data and machine learning models to optimize maintenance scheduling and enhance fleet reliability. Presented findings to a panel of industry experts and secured a $1,200 cash prize for innovation.",
     technologies: ["Automotive Engineering", "Predictive Maintenance", "Machine Learning", "Simulation", "Fleet Optimization"],
+  },
+  {
+    title: "AI BlackJack Assistant",
+    image: project6,
+    description:
+    "Developed an AI-powered Blackjack (21) game integrating real-time card recognition using deep learning and computer vision. Designed an interactive game interface with Pygame and implemented an AI assistant to provide strategic gameplay suggestions. Built a deep learning model for card classification using TensorFlow, achieving high accuracy in real-time detection. Enhanced user experience by optimizing game logic for dynamic dealer interactions and AI-driven decision-making. Integrated OpenCV for seamless webcam-based card recognition, reducing processing latency by 30%.",
+    technologies: ["Deep Learning", "Computer Vision", "OpenCV", "TensorFlow", "Pygame", "AI Strategy", "Game Development", "Python"],
   },
   {
     title: "Portfolio Website",
