@@ -17,6 +17,13 @@ Currently, I’m working on LLM-powered mobile robot control and have fine-tuned
 
 export const EXPERIENCES = [
   {
+    year: "Jan 2025 - Present",
+    role: "Graduate Student Researcher",
+    company: "Boston University",
+    description: `Researching integrating large language models (LLMs) with robotic manipulators, focusing on spatial and temporal studies for real-time decision-making. Developing an LLM-based framework for autonomous robotic control and safety assessments using the Sawyer manipulator.`,
+    technologies: ["Robotics", "LLM", "ROS", "RAG","Fine-Tuning","NLP"],
+  },
+  {
     year: "Jul 2023 - Apr 2024",
     role: "Technical Director of Projects",
     company: "CEG TECH FORUM",
@@ -38,7 +45,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "Developed an autonomous mobile robot that operates entirely offline using fine-tuned, quantized LLMs. Integrated Whisper for speech-to-text conversion, LLaMA 3 for parsing natural language commands, and ROS for executing real-time navigation. Optimized motion planning algorithms, achieving 96% positional accuracy and 93% rotational accuracy with just 400ms latency in Gazebo simulations. Designed the system to minimize cloud dependencies, reducing communication delays and improving response time for real-time applications.",
-    technologies: ["ROS", "Gazebo", "LLaMA 3", "Whisper", "Python", "Machine Learning", "Motion Planning", "Embedded Systems"],
+    technologies: ["ROS", "Gazebo", "LLaMA 3", "Whisper","LLM","Fine Tuning","Python", "Machine Learning", "Motion Planning", "Embedded Systems"],
   },
   {
     title: "Smart Package Delivery Box",
